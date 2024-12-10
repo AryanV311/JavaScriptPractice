@@ -1,0 +1,72 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .canvas {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .color-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  .button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h2 span {
+    font-weight: bold;
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #green {
+    background: green;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+  

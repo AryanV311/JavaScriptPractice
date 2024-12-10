@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6e2ef4, #8e6bf0);
+  }
+  
+  .container {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: white;
+  }
+  
+  .left-section {
+    width: 50%;
+    background: linear-gradient(135deg, #6e2ef4, #8e6bf0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .left-section img {
+    max-width: 80%;
+    max-height: 80%;
+    display: flex;
+   margin: auto;
+   background: transparent;
+   border-radius: 20px;
+  }
+  
+  .left-section p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  
+  .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .login-box {
+    width: 80%;
+    text-align: start ;
+  }
+  
+  .login-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6e2ef4;
+  }
+  
+  .login-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: linear-gradient(135deg, #6e2ef4, #8e6bf0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: linear-gradient(135deg, #8e6bf0, #6e2ef4);
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .actions a {
+    color: #6e2ef4;
+    text-decoration: none;
+  }
+  
+  .actions a:hover {
+    text-decoration: underline;
+  }
+  
